@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Padauk:wght@400;700&display=swap');
+
+body {
+  font-family: 'Padauk', sans-serif;
+}
+
+#bodyPadding {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 60px;
+
+}
+
+#AboutMe {
+  font-size: 50px;
+  background-color: black;
+}
+
+#projects {
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+img {
+  width: 70%;
+}
+
+.headerLinks:hover {
+  color:#ffffff !important;
+}
+
+#TopHeaderBar {
+  background-color: black;
+}
+
+@media (max-width: 767.99px) {
+  .left {
+    float: center;
+    justify-content: center;
+    padding-left: 3%;
+  }
+
+  .right {
+    float: center;
+    justify-content: center;
+    padding-left: 3%;
+  }
+}
+@media (min-width: 768px){
+  .left {
+    float: left;
+    justify-content: left;
+    padding-left: 3%;
+  }
+
+  .right {
+    float: right;
+    justify-content: right;
+    padding-left: 3%;
+  }
+  .productCardRight {
+    width: 55%;
+  }
+  .productCardLeft {
+    padding-left: 45%;
+  }
+}
+
+.row {
+  padding-top: 3%;
+}
