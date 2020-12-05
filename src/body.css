@@ -53,6 +53,14 @@ img {
     justify-content: center;
     padding-left: 3%;
   }
+  .productCardRight {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .productCardLeft {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
 }
 @media (min-width: 768px){
   .left {
