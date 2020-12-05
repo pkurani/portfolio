@@ -20,7 +20,7 @@ class Projects extends Component {
               <div className="productCardRight">
                 <Card>
                   <Card.Body>
-                    <div className="card-title h2">Development</div>
+                    <div className="card-title h2">Cool Cars</div>
                     <Card.Text>
                       Some quick example text to build on the card title and make up the bulk of
                       the card's content.
@@ -41,7 +41,7 @@ class Projects extends Component {
             <div className="productCardLeft">
               <Card>
                 <Card.Body>
-                  <div className="card-title h2">Development</div>
+                  <div className="card-title h2">EcQuality Auto Shop Redesign</div>
                   <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -62,7 +62,7 @@ class Projects extends Component {
               <div className="productCardRight">
                 <Card>
                   <Card.Body>
-                    <div className="card-title h2">Development</div>
+                    <div className="card-title h2">SockSoho Design</div>
                     <Card.Text>
                       Some quick example text to build on the card title and make up the bulk of
                       the card's content.
@@ -94,7 +94,7 @@ class Projects extends Component {
               </div>
             </Col>
             <Col xs={12} md={7}>
-              <img className="rounded mb-0 left" src="/images/redesign.png" />
+              <img className="left" src="/images/infographic.png" />
             </Col>
           </Row>
 
