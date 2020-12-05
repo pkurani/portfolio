@@ -31,7 +31,7 @@ class Projects extends Component {
             </div>
           </Col>
           <Col xs={12} md={7}>
-            <img className="rounded mb-0 imageContent right" src="/images/website1.png" />
+            <img className="right" src="/images/website1.png" />
           </Col>
         </Row>
 
@@ -52,7 +52,7 @@ class Projects extends Component {
           </div>
           </Col>
           <Col xs={12} md={7}>
-            <img className="rounded mb-0 imageContent left" src="/images/website1.png" />
+            <img className="left" src="/images/redesign.png" />
           </Col>
         </Row>
 
@@ -73,7 +73,7 @@ class Projects extends Component {
               </div>
             </Col>
             <Col xs={12} md={7}>
-              <img className="rounded mb-0 imageContent right" src="/images/website1.png" />
+              <img className="right" src="/images/iterative.png" />
             </Col>
           </Row>
 
@@ -94,7 +94,7 @@ class Projects extends Component {
               </div>
             </Col>
             <Col xs={12} md={7}>
-              <img className="rounded mb-0 left" src="/images/website1.png" />
+              <img className="rounded mb-0 left" src="/images/redesign.png" />
             </Col>
           </Row>
 
