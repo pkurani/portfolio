@@ -23,6 +23,8 @@ class MainPage extends Component {
               <Projects  />
               <Contact />
             </div>
+            <br />
+            <br />
           </div>
         )
   }

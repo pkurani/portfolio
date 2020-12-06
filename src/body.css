@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Padauk', sans-serif;
+  line-height: 1;
 }
 
 #bodyPadding {
@@ -22,6 +23,12 @@ body {
   background-color: black;
 }
 
+#contact{
+  font-size: 50px;
+  background-color: black;
+
+}
+
 #projects {
   padding-top: 3%;
   padding-left: 6%;
@@ -37,11 +44,15 @@ img {
   color:#ffffff !important;
 }
 
+a:hover {
+  opacity:0.5 !important;
+}
+
 #TopHeaderBar {
   background-color: black;
 }
 
-@media (max-width: 767.99px) {
+@media (max-width: 991.99px) {
   .left {
     float: center;
     justify-content: center;
@@ -56,13 +67,17 @@ img {
   .productCardRight {
     padding-top: 3%;
     padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right:15%;
   }
   .productCardLeft {
     padding-top: 3%;
     padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right:15%;
   }
 }
-@media (min-width: 768px){
+@media (min-width: 992px){
   .left {
     float: left;
     justify-content: left;
@@ -84,4 +99,13 @@ img {
 
 .row {
   padding-top: 3%;
+}
+.card-text {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.card {
+  border-color: blue;
+  border-radius: 7% !important;
 }

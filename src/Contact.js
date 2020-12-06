@@ -10,7 +10,17 @@ import './index.css';
 class Contact extends Component {
   render() {
     return(
-      <p>hi</p>
+      <div className="p-3 mb-2 text-white rounded" id="contact">
+        <Row>
+        <Col xs={12}>
+          <p>Contact</p>
+        </Col>
+        <hr/>
+        <Col xs={12}>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, "</p>
+        </Col>
+        </Row>
+      </div>
     )
   };
 
