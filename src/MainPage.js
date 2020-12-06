@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import AboutMe from "./AboutMe.js"
 import Projects from "./Projects.js"
 import Contact from "./Contact.js"
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './body.css';
 
@@ -38,10 +38,10 @@ class TopHeaderBar extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-                <Nav.Link className="headerLinks" id="link1"> home </Nav.Link>
-                <Nav.Link className="headerLinks" id="link2"> about </Nav.Link>
-                <Nav.Link className="headerLinks" id="link3"> projects </Nav.Link>
-                <Nav.Link className="headerLinks" id="link4"> contact </Nav.Link>
+                <AnchorLink className="headerLinks nav-link" href='#home' id="link1">home</AnchorLink>
+                <AnchorLink className="headerLinks nav-link" href='#aboutMe' id="link2">about</AnchorLink>
+                <AnchorLink className="headerLinks nav-link" href='#projects' id="link3">projects</AnchorLink>
+                <AnchorLink className="headerLinks nav-link" href='#contact' id="link4">contact</AnchorLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

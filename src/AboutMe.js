@@ -8,7 +8,7 @@ import './body.css';
 class AboutMe extends Component {
   render() {
     return(
-      <div className="text-white rounded" id="AboutMe">
+      <div className="text-white rounded" id="aboutMe">
         <Row>
         <Col xs={12}>
           <h1>about me</h1>
