@@ -10,14 +10,15 @@ import './body.css';
 class AboutMe extends Component {
   render() {
     return(
-      <div className="p-3 mb-2 text-white rounded" id="AboutMe">
+      <div className="text-white rounded" id="AboutMe">
         <Row>
         <Col xs={12}>
-          <p>About Me</p>
+          <h1>about me</h1>
         </Col>
         <hr/>
         <Col xs={12}>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, "</p>
+          <p> i'm an aspiring software engineer/ux desginer passionate about creating intuitive, accessible user experiences
+          through a minimalist framework. feel free to browse through my work, check out my GitHub, or message me about any questions you may have!</p>
         </Col>
         </Row>
       </div>

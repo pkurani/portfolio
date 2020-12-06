@@ -18,9 +18,13 @@ class MainPage extends Component {
           <div>
             <TopHeaderBar  />
             <div id="bodyPadding">
+              <br />
               <Home  />
+              <br />
               <AboutMe  />
+              <br />
               <Projects  />
+                <br />
               <Contact />
             </div>
             <br />
@@ -34,14 +38,14 @@ class TopHeaderBar extends Component {
   render() {
     return(
       <Navbar collapseOnSelect expand="md" variant="dark" sticky="top" id="TopHeaderBar">
-          <Navbar.Brand href="#home">Parth Kurani</Navbar.Brand>
+          <Navbar.Brand href="#home">parth kurani</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-                <Nav.Link className="headerLinks"> Home </Nav.Link>
-                <Nav.Link className="headerLinks"> About </Nav.Link>
-                <Nav.Link className="headerLinks"> Projects </Nav.Link>
-                <Nav.Link className="headerLinks"> Contact </Nav.Link>
+                <Nav.Link className="headerLinks" id="link1"> home </Nav.Link>
+                <Nav.Link className="headerLinks" id="link2"> about </Nav.Link>
+                <Nav.Link className="headerLinks" id="link3"> projects </Nav.Link>
+                <Nav.Link className="headerLinks" id="link4"> contact </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -52,9 +56,9 @@ class TopHeaderBar extends Component {
 class Home extends Component {
   render() {
     return(
-      <Container id="home">
-        <p>Hi, I'm Parth</p>
-      </Container>
+      <div className="rounded" id="home">
+        <p>hi, i'm parth</p>
+      </div>
     )
   };
 

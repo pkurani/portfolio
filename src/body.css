@@ -10,22 +10,53 @@ body {
   padding-right: 3%;
 }
 #home {
+  padding-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   font-size: 60px;
+  border: 1px solid #0575D8;
 
+}
+
+#contactRow2{
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+#projectHeader {
+  font-size: 4.2em;
+  text-align: left;
+  font-weight: 550;
 }
 
 #AboutMe {
-  font-size: 50px;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 2em;
   background-color: black;
+  border: 3px solid #7CDB99;
+  text-align: left;
 }
 
 #contact{
-  font-size: 50px;
+  padding-top: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 2em;
   background-color: black;
+  border: 3px solid #EBA954;
+  text-align: left;
+  padding-bottom: 0%;
+
+}
+#contactRow {
+  padding-bottom: 0% !important;
 
 }
 
@@ -33,18 +64,15 @@ body {
   padding-top: 3%;
   padding-left: 6%;
   padding-right: 6%;
+  border: 1px solid #EF8182;
 }
 
-img {
+.projectImg {
   width: 70%;
   border-radius: 7% !important;
 }
 
-.headerLinks:hover {
-  color:#ffffff !important;
-}
-
-a:hover {
+img:hover {
   opacity:0.5 !important;
 }
 
@@ -76,6 +104,9 @@ a:hover {
     padding-left: 15%;
     padding-right:15%;
   }
+  .card {
+    border-radius: 10px;
+  }
 }
 @media (min-width: 992px){
   .left {
@@ -95,6 +126,9 @@ a:hover {
   .productCardLeft {
     padding-left: 45%;
   }
+  .card {
+    border-radius: 7%;
+  }
 }
 
 .row {
@@ -105,7 +139,50 @@ a:hover {
   text-align: left;
 }
 
-.card {
-  border-color: blue;
-  border-radius: 7% !important;
+#firstCard {
+  border-color: #0575D8;
+}
+
+#secondCard {
+  border-color: #7CDB99;
+
+}
+
+#thirdCard {
+  border-color: #EF8182;
+
+}
+
+#fourthCard {
+  border-color: #EBA954;
+
+}
+
+#link1, #link2, #link3, #link4 {
+  color:#ffffff
+}
+
+#link1:hover {
+  color: #0575D8;
+}
+#link2:hover {
+  color: #7CDB99;
+}
+#link3:hover {
+  color: #EF8182;
+}
+#link4:hover {
+  color: #EBA954;
+}
+
+.contactPNG {
+  width: 2em;
+  length: 2em;
+  justify-content: center;
+  float: center;
+}
+
+.contactCols{
+  justify-content: center;
+  text-align: center;
 }
