@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Jumbotron from 'react-bootstrap/Jumbotron'
+import { Navbar, Nav } from 'react-bootstrap';
 import AboutMe from "./AboutMe.js"
 import Projects from "./Projects.js"
 import Contact from "./Contact.js"

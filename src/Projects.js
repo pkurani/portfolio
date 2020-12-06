@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import ListGroup from 'react-bootstrap/ListGroup'
 import Button from 'react-bootstrap/Button'
 
 
@@ -34,7 +31,7 @@ class Projects extends Component {
           </Col>
           <Col xs={12} lg={7}>
           <a href="https://lit-meadow-88957.herokuapp.com/#home">
-            <img className="right projectImg" src="/images/website1.png" />
+            <img className="right projectImg" src="/images/website1.png" alt="cool cars"/>
           </a>
           </Col>
         </Row>
@@ -57,7 +54,7 @@ class Projects extends Component {
           </Col>
           <Col xs={12} lg={7}>
           <a href="https://rocky-woodland-30105.herokuapp.com/">
-            <img className="left projectImg" src="/images/redesign.png" />
+            <img className="left projectImg" src="/images/redesign.png" alt="redesign"/>
           </a>
           </Col>
         </Row>
@@ -81,7 +78,7 @@ class Projects extends Component {
             </Col>
             <Col xs={12} lg={7}>
             <a href="https://www.figma.com/proto/zSBO7EcNSd0dyTKMnAfcvK/High-fi-SockSoho?node-id=3%3A3&scaling=min-zoom">
-              <img className="right projectImg" src="/images/iterative.png" />
+              <img className="right projectImg" src="/images/iterative.png" alt="socksoho"/>
             </a>
             </Col>
           </Row>
@@ -104,7 +101,7 @@ class Projects extends Component {
             </Col>
             <Col xs={12} lg={7}>
             <a href="https://ancient-cove-94132.herokuapp.com/">
-              <img className="left projectImg" src="/images/infographic.png" />
+              <img className="left projectImg" src="/images/infographic.png" alt="abtesting"/>
             </a>
             </Col>
           </Row>
