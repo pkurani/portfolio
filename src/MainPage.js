@@ -34,7 +34,7 @@ class TopHeaderBar extends Component {
   render() {
     return(
       <Navbar collapseOnSelect expand="md" variant="dark" sticky="top" id="TopHeaderBar">
-          <Navbar.Brand href="#home">parth kurani</Navbar.Brand>
+          <Navbar.Brand href="#home">first last</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
@@ -53,7 +53,7 @@ class Home extends Component {
   render() {
     return(
       <div className="rounded" id="home">
-        <p>hi, i'm parth</p>
+        <p>hi, i'm (first name here)</p>
       </div>
     )
   };
