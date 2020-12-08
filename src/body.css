@@ -43,6 +43,7 @@ h1 {
   background-color: black;
   border: 3px solid #7CDB99;
   text-align: left;
+  padding-bottom: 2.3%
 }
 
 #contact{
@@ -53,7 +54,7 @@ h1 {
   background-color: black;
   border: 3px solid #EBA954;
   text-align: left;
-  padding-bottom: 0%;
+  padding-bottom: 0.5%;
 
 }
 #contactRow {
@@ -66,6 +67,7 @@ h1 {
   padding-left: 6%;
   padding-right: 6%;
   border: 1px solid #EF8182;
+  padding-bottom: 3%;
 }
 
 .projectImg {
