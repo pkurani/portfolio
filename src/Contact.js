@@ -13,23 +13,18 @@ class Contact extends Component {
             <h1>let's get in touch!</h1>
           </div>
         <Row id="contactRow2">
-          <Col xs={3} className="contactCols">
-          <a href="mailto:student@brown.edu">
+          <Col xs={4} className="contactCols">
+          <a href="mailto:parth_kurani@brown.edu">
             <img src="/images/mail.png" className="contactPNG" alt="mail"/>
             </a>
           </Col>
-          <Col xs={3} className="contactCols">
-          <a href="https://linkedin.com">
+          <Col xs={4} className="contactCols">
+          <a href="https://www.linkedin.com/in/parth-k-a5aa45153/">
             <img src="/images/linkedin.png" className="contactPNG" alt="linkedin"/>
             </a>
           </Col>
-          <Col xs={3} className="contactCols">
-          <a href="https://twitter.com">
-            <img src="/images/twitter.png" className="contactPNG" alt="twitter"/>
-            </a>
-          </Col>
-          <Col xs={3} className="contactCols">
-          <a href="https://github.com">
+          <Col xs={4} className="contactCols">
+          <a href="https://github.com/pkurani">
             <img src="/images/github.png" className="contactPNG" alt="github"/>
             </a>
           </Col>
